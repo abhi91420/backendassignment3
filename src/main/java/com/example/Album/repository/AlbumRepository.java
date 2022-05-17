@@ -12,7 +12,7 @@ public class AlbumRepository
     List<Album> albumList = new ArrayList();
     public static Album getAlbum()
     {
-        Album album = new Album("Album", "Trip", "MyPC");
+        Album album = new Album("AlbumName", "ABC", "XYZ");
                 return album;
     }
 
